@@ -76,7 +76,7 @@ nav ul {
   display: flex;
   justify-content: space-around;
   font-size: 1.5em;
-  position: static;
+  position: absolute;
   width: 80vw;
   top: 20vh;
   color: #46F;
@@ -112,16 +112,16 @@ name {
   letter-spacing: 0.015em;
 }
 
-.l-unshadow {
+.n-unshadow {
   display: block;
   position:absolute;
   top: 5.0%;
   left: 3.0%;
   color: #876;
-  filter: blur(3px);
+  filter: blur(4px);
 }
 
-.l-shadow {
+.n-shadow {
   display: block;
   position:absolute;
   top: 7.0%;
@@ -130,14 +130,13 @@ name {
   filter: blur(4px);
 }
 
-.l-one {
+.n-one {
   display: block;
   position:absolute;
   top: 5%;
   left: 5%;
   color: #24D;
 }
-
 
 .content {
   flex-direction: column;
@@ -151,6 +150,36 @@ name {
   position: absolute;
   top: 40%;
   left: 20%;
+}
+
+#shelf {
+  display: flex;
+}
+
+#resume {
+  position: relative;
+}
+
+.r-unshadow {
+  display: block;
+  position: absolute;
+  top: 5.0%;
+  left: 3.0%;
+  background-color: #876;
+  filter: blur(3px);
+}
+
+.r-shadow {
+  display: block;
+  position: absolute;
+  top: 7.0%;
+  left: 5.0%;
+  background-color: #FFF;
+  filter: blur(4px);
+}
+
+.r-one {
+  display: block;
 }
 
 /*form {
