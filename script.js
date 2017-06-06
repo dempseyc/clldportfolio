@@ -1,4 +1,6 @@
 (function() {
+  let a = 1;
+  let b = 1;
   let w = window.innerWidth;
   let h = window.innerHeight;
   let P = $('#printout');
@@ -13,11 +15,11 @@
 
 
   body.on('mousemove', function(e) {
-      let a = e.clientY/h;
-      let b = e.clientX/w;
+      a = e.clientY/h;
+      b = e.clientX/w;
       sYAngle = 4 + 3*a;
       SH.css('top',sYAngle+'%');
-      sXAngle = 5 + 2*b;
+      sXAngle = 5 + 1.5*b;
       SH.css('left',sXAngle+'%');
       usYAngle = 5 - a;
       uSH.css('top',usYAngle+'%');

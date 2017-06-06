@@ -48,127 +48,118 @@ table {
 }
 
 /*  end reset.css */
+/*  end reset.css */
+/*  end reset.css */
+/*  end reset.css */
+
+html {
+  box-sizing: border-box;
+}
 
 body {
-  background-color: #c0c8c8;
+  background-color: #C0C8C8;
   font-family: 'Josefin Slab', serif;
   color: #46F;
+  overflow-x: hidden;
+}
+
+p {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: #46F;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5em;
+  position: static;
+  width: 80vw;
+  top: 20vh;
+  color: #46F;
+}
+
+nav ul li {
+
 }
 
 .transparent {
   position: static;
   height: 100vh;
   width: 100vw;
-/*   background-color: rgba(120,0,0,0.2); */
+  /*background-color: rgba(120,0,0,0.2);*/
 }
 
 #main-container {
-  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
   top: 20%;
 }
 
-.l-unshadow {
+.container {
+  margin: 0 auto;
+  padding: 0 0 0 5%;
+}
+
+name {
+  font-size: 3em;
   font-family: 'Raleway', sans-serif;
   font-weight: '900';
-  font-size: 1.0em;
   letter-spacing: 0.015em;
+}
+
+.l-unshadow {
   display: block;
   position:absolute;
   top: 5.0%;
   left: 3.0%;
   color: #876;
-  filter: blur(4px);
+  filter: blur(3px);
 }
 
 .l-shadow {
-  font-family: 'Raleway', sans-serif;
-  font-weight: '900';
-  font-size: 1.0em;
-  letter-spacing: 0.015em;
   display: block;
   position:absolute;
   top: 7.0%;
   left: 5.0%;
   color: #FFF;
-  filter: blur(6px);
+  filter: blur(4px);
 }
 
 .l-one {
-  font-family: 'Raleway', sans-serif;
-  font-weight: '900';
-  font-size: 1em;
-  letter-spacing: 0.02em;
-  color: #46F;
-}
-
-.l-two {
-  font-family: 'Raleway Dots', sans-serif;
-  font-weight: '200';
-  color: #DFD;
-  font-size: 0.98em;
-  letter-spacing: 0.175em;
-  top:4.5%;
-  filter: blur(0.7px);
-}
-
-.l-one, .l-two {
- display: block;
- position:absolute;
- top:5%;
- left:5%;
-}
-
-.display-text h1 {
-  font-size: 3em;
-}
-
-nav {
   display: block;
-  font-family: 'Josefin Slab', serif;
-  font-size: 1.5em;
+  position:absolute;
+  top: 5%;
+  left: 5%;
+  color: #24D;
+}
+
+
+.content {
+  flex-direction: column;
   position: absolute;
-  width: 100vw;
   top: 30%;
-  left: 20%;
-  color: #46F;
+  left: 10%;
 }
 
 .content-div {
+  flex-direction: column;
   position: absolute;
-  display: block;
   top: 40%;
   left: 20%;
 }
 
-nav ul li {
-  display: inline;
-}
-
-.container {
-  margin: 0 auto;
-  padding: 0 100px 0 100px;
-}
-
-h2 {
-  display: inline;
-  font-size: 20px;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-
-a {
-  text-decoration: none;
-  color: #666;
-}
-
-form {
+/*form {
   display: inline;
 }
 
 input[type=submit] {
   color: #888;
-}
+}*/
 
 /*.navbarontop {
   position: fixed;
