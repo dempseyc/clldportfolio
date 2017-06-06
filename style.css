@@ -1,0 +1,180 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*  end reset.css */
+
+body {
+  background-color: #c0c8c8;
+  font-family: 'Josefin Slab', serif;
+  color: #46F;
+}
+
+.transparent {
+  position: static;
+  height: 100vh;
+  width: 100vw;
+/*   background-color: rgba(120,0,0,0.2); */
+}
+
+#main-container {
+  position: relative;
+  top: 20%;
+}
+
+.l-unshadow {
+  font-family: 'Raleway', sans-serif;
+  font-weight: '900';
+  font-size: 1.0em;
+  letter-spacing: 0.015em;
+  display: block;
+  position:absolute;
+  top: 5.0%;
+  left: 3.0%;
+  color: #876;
+  filter: blur(4px);
+}
+
+.l-shadow {
+  font-family: 'Raleway', sans-serif;
+  font-weight: '900';
+  font-size: 1.0em;
+  letter-spacing: 0.015em;
+  display: block;
+  position:absolute;
+  top: 7.0%;
+  left: 5.0%;
+  color: #FFF;
+  filter: blur(6px);
+}
+
+.l-one {
+  font-family: 'Raleway', sans-serif;
+  font-weight: '900';
+  font-size: 1em;
+  letter-spacing: 0.02em;
+  color: #46F;
+}
+
+.l-two {
+  font-family: 'Raleway Dots', sans-serif;
+  font-weight: '200';
+  color: #DFD;
+  font-size: 0.98em;
+  letter-spacing: 0.175em;
+  top:4.5%;
+  filter: blur(0.7px);
+}
+
+.l-one, .l-two {
+ display: block;
+ position:absolute;
+ top:5%;
+ left:5%;
+}
+
+.display-text h1 {
+  font-size: 3em;
+}
+
+nav {
+  display: block;
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.5em;
+  position: absolute;
+  width: 100vw;
+  top: 30%;
+  left: 20%;
+  color: #46F;
+}
+
+.content-div {
+  position: absolute;
+  display: block;
+  top: 40%;
+  left: 20%;
+}
+
+nav ul li {
+  display: inline;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 100px 0 100px;
+}
+
+h2 {
+  display: inline;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+form {
+  display: inline;
+}
+
+input[type=submit] {
+  color: #888;
+}
+
+/*.navbarontop {
+  position: fixed;
+  z-index: top;
+  top: 0;
+  width: 100%;
+  padding: 0 0 10px 0;
+  margin-left: -200px;
+}*/
