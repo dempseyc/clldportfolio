@@ -72,6 +72,11 @@ a {
   color: #46F;
 }
 
+h2 {
+  font-size: 1.5em;
+  margin: 2%;
+}
+
 nav ul {
   display: flex;
   justify-content: space-around;
@@ -105,11 +110,24 @@ nav ul li {
   padding: 0 0 0 5%;
 }
 
+heading {
+  display: flex;
+  flex-direction: row;
+}
+
 name {
   font-size: 3em;
   font-family: 'Raleway', sans-serif;
   font-weight: '900';
   letter-spacing: 0.015em;
+}
+
+contact {
+  display: inline-block;
+  position: absolute;
+  font-size: 1.5em;
+  top: 5%;
+  left: 70%;
 }
 
 .n-unshadow {
@@ -174,7 +192,6 @@ name {
   height: 300px;
 }
 
-
 .e-unshadow {
   display: block;
   position:absolute;
@@ -203,6 +220,7 @@ name {
 
 #resume {
   align-content: center;
+  margin: 5%;
 }
 
 .r-unshadow {
@@ -225,6 +243,16 @@ name {
 
 .r-one {
   display: block;
+}
+
+#non-dev {
+  display: flex;
+}
+
+.non-dev-item {
+  flex-direction: column;
+  margin: 5%;
+  font-size: 2em;
 }
 
 /*form {

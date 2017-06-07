@@ -7,7 +7,7 @@ let projects = [
   },
   {
     "title": "Our Moon Gardens",
-    "thumbnail": "our-moon-gardens-thumb.gif",
+    "thumbnail": "our-moon-gardens-thumb.jpeg",
     "link": "#",
     "github-repo": "theGithubRepo"
   },
@@ -16,11 +16,5 @@ let projects = [
     "thumbnail": "baad_planet_thumb.jpeg",
     "link": "https://dempseyc.github.io/",
     "github-repo": "https://github.com/dempseyc/dempseyc.github.io"
-  },
-  {
-    "title": "Elf Work",
-    "thumbnail": "elf-work.gif",
-    "link": "#",
-    "github-repo": "theGithubRepo"
   }
 ]
