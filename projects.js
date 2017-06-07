@@ -8,8 +8,8 @@ let projects = [
   {
     "title": "Our Moon Gardens",
     "thumbnail": "our-moon-gardens-thumb.jpeg",
-    "link": "#",
-    "github-repo": "theGithubRepo"
+    "link": "https://github.com/dempseyc/our_moon_gardens",
+    "github-repo": "https://github.com/dempseyc/our_moon_gardens"
   },
   {
     "title": "Baad Plaanet!!",
