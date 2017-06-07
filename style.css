@@ -156,12 +156,24 @@ name {
 
 #projs {
   display: flex;
+  flex-direction: row;
 }
 
 .proj-elem {
+  display: inline-flex;
   align-content: center;
-
+  flex-direction: column;
+  margin: 5%;
 }
+.proj-elem a {
+  font-size: 2em;
+  margin: 5%;
+}
+.proj-elem img {
+  width: 300px;
+  height: 300px;
+}
+
 
 .e-unshadow {
   display: block;

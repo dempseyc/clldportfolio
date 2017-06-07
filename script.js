@@ -40,6 +40,22 @@
 
   let Projs = $('#projects');
   let projData = projects;
+
+  projData.forEach(function(item){
+    let DIV = $('<div class="proj-elem">')
+    let title = item["title"];
+    let IMGhref = item["thumbnail"];
+    let IMG = $('<img src="./public/images/'+IMGhref+'">')
+    let GITlink = item["github-repo"];
+    let LNK = item["link"];
+    let aREF = $('<a href="'+LNK+'">'+title+'</a>');
+    DIV.append(aREF);
+    DIV.append(IMG);
+    Projs.append(DIV);
+  })
+
+
+
   console.log(projData);
 
 })();

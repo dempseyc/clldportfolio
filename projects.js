@@ -1,9 +1,9 @@
 let projects = [
   {
     "title": "Thinking Cat",
-    "thumbnail": "thinking-cat-thumb.gif",
-    "link": "#",
-    "github-repo": "theGithubRepo"
+    "thumbnail": "thinking_cat_thumb.jpeg",
+    "link": "https://github.com/dempseyc/thinking-cat",
+    "github-repo": "https://github.com/dempseyc/thinking-cat"
   },
   {
     "title": "Our Moon Gardens",
@@ -13,9 +13,9 @@ let projects = [
   },
   {
     "title": "Baad Plaanet!!",
-    "thumbnail": "baad-planet.gif",
-    "link": "#",
-    "github-repo": "theGithubRepo"
+    "thumbnail": "baad_planet_thumb.jpeg",
+    "link": "https://dempseyc.github.io/",
+    "github-repo": "https://github.com/dempseyc/dempseyc.github.io"
   },
   {
     "title": "Elf Work",
