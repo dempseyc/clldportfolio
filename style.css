@@ -139,25 +139,58 @@ name {
 }
 
 .content {
+  display: flex;
   flex-direction: column;
   position: absolute;
   top: 30%;
   left: 10%;
 }
 
-.content-div {
+.content-item {
   flex-direction: column;
-  position: absolute;
-  top: 40%;
-  left: 20%;
 }
 
-#shelf {
+#projects {
+  position: relative;
+}
+
+#projs {
   display: flex;
 }
 
+.proj-elem {
+  align-content: center;
+
+}
+
+.e-unshadow {
+  display: block;
+  position:absolute;
+  top: 5.0%;
+  left: 3.0%;
+  color: #876;
+  filter: blur(4px);
+}
+
+.e-shadow {
+  display: block;
+  position:absolute;
+  top: 7.0%;
+  left: 5.0%;
+  color: #FFF;
+  filter: blur(4px);
+}
+
+.e-one {
+  display: block;
+  position:absolute;
+  top: 5%;
+  left: 5%;
+  color: #24D;
+}
+
 #resume {
-  position: relative;
+  align-content: center;
 }
 
 .r-unshadow {
