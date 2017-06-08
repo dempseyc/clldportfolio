@@ -73,7 +73,7 @@ a {
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 2.5em;
   margin: 2%;
 }
 
@@ -252,7 +252,7 @@ contact {
 .non-dev-item {
   flex-direction: column;
   margin: 5%;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 /*form {
