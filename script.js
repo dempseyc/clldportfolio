@@ -1,4 +1,4 @@
-(function() {
+$(document).ready(function(){
   let a = 1;
   let b = 1;
   let w = window.innerWidth;
@@ -39,9 +39,8 @@
   });
 
   let Projs = $('#projects');
-  let projData = projects;
 
-  projData.forEach(function(item){
+  projects.forEach(function(item){
     let DIV = $('<div class="proj-elem">')
     let title = item["title"];
     let IMGhref = item["thumbnail"];
@@ -54,8 +53,9 @@
     Projs.append(DIV);
   })
 
+  console.log(projects);
+
+});
 
 
-  console.log(projData);
 
-})();

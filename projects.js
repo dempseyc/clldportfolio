@@ -1,4 +1,4 @@
-let projects = [
+var projects = [
   {
     "title": "Thinking Cat",
     "thumbnail": "thinking_cat_thumb.gif",
