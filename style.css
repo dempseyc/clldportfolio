@@ -57,11 +57,12 @@ html {
 }
 
 body {
-  background-color: #ABB;
+  /*background-color: #ABB;*/
+  background-image: url("public/images/andrews_mac_background.jpg");
+  background-size: cover;
   font-family: 'Josefin Slab', serif;
   font-weight: bold;
-  text-shadow: 1px 1px 1px rgba(73,60,51,0.8);
-  color: #46F;
+  color: #DEF;
   overflow-x: hidden;
 }
 
@@ -120,8 +121,13 @@ header {
   margin: 0 0 0 0;
   width: 100%;
   height: 25%;
-  background-color: rgba(170,187,187,0.9);
-  outline: 4px solid rgba(136,119,102,0.4);
+  background-color: rgba(170,187,187,0.8);
+  border-bottom: 2px solid rgba(251,251,251,0.2);
+  outline: 4px solid rgba(251,251,251,0.6);
+}
+
+header a {
+  text-shadow: 1px 1px 1px rgba(136,119,102,1);;
 }
 
 /*.top-to-bottom {
@@ -141,9 +147,9 @@ header {
 
 name {
   font-size: 3.5em;
-  font-family: 'Raleway', sans-serif;
+  /*font-family: 'Raleway', sans-serif;*/
   font-weight: '500';
-  letter-spacing: 0.02em;
+  letter-spacing: 0.06em;
   margin: 2% 0% 0% 15%;
 }
 

@@ -20,8 +20,8 @@ $(document).ready(function(){
   body.on('mousemove', function(e) {
       a = e.clientY/h;
       b = e.clientX/w;
-      sXAngle = 4 + 1.7*b;
-      sYAngle = 5 + 1.5*a;
+      sXAngle = 4 + 1.5*b;
+      sYAngle = 5 + 1.6*a;
       usXAngle = 5 - 0.4*b;
       usYAngle = 5 - 0.4*a;
       nSH.css('left',sXAngle+'%');
