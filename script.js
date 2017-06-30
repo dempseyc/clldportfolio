@@ -17,6 +17,7 @@ $(document).ready(function(){
   let body = $('body');
   let T = $('.transparent');
 
+  // replace this with an animation that works for all devices without hover
   body.on('mousemove', function(e) {
       a = e.clientY/h;
       b = e.clientX/w;
@@ -42,15 +43,14 @@ $(document).ready(function(){
 
   projects.forEach(function(item){
     let DIV = $('<div class="proj-elem">')
-    let title = item["title"];
+    let title = item["title"]; // what is this doing?
     let IMGhref = item["thumbnail"];
     let IMG = $('<img src="./public/images/'+IMGhref+'">')
-    let GITlink = item["github-repo"];
     let LNK = item["link"];
     let aREF = $('<a href="'+LNK+'">'+title+'</a>');
+    aREF.append(IMG);
     DIV.append(aREF);
-    DIV.append(IMG);
-    Projs.append(DIV);
+    Projs.append(DIV);  //there we go
   })
 
   console.log(projects);
