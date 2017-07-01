@@ -58,7 +58,9 @@ html {
 
 body {
   /*background-color: #ABB;*/
-  background-image: url("public/images/andrews_mac_background.jpg");
+  background-color: #000;
+
+  /*background-image: url("public/images/andrews_mac_background.jpg");*/
   background-size: cover;
   font-family: 'Josefin Slab', serif;
   font-weight: bold;
@@ -102,15 +104,12 @@ nav ul li {
 }
 
 #main-container {
-  display: grid;
-  width: 100vw;
-  grid-template-rows: 75vh minmax(25vh, auto) 50px calc(75vh - 50px) 25vh 25vh 75vh;
-  /*top: 20%;*/
+
 }
 
 .container {
   margin: 0 auto;
-  padding: 0 0 0 5%;
+  padding: 0;
 }
 
 header {
@@ -130,45 +129,11 @@ header a {
   text-shadow: 1px 1px 1px rgba(136,119,102,1);;
 }
 
-/*.top-to-bottom {
-  border-width: 3px;
-  border-style: solid;
-  -webkit-border-image:
-    -webkit-gradient(linear, 0 0, 0 100%, from(black), to(rgba(0, 0, 0, 0))) 1 100%;
-  -webkit-border-image:
-    -webkit-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;
-  -moz-border-image:
-    -moz-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;
-  -o-border-image:
-    -o-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;
-  border-image:
-    linear-gradient(to bottom, black, rgba(0, 0, 0, 0)) 1 100%;
-}*/
-
 name {
-  font-size: 3.5em;
-  /*font-family: 'Raleway', sans-serif;*/
+  font-size: 4em;
   font-weight: '500';
   letter-spacing: 0.06em;
-  margin: 2% 0% 0% 15%;
-}
-
-.n-unshadow {
-  display: block;
-  position:absolute;
-  top: 5.0%;
-  left: 3.0%;
-  color: rgba(136,119,102,1);
-  filter: blur(4px);
-}
-
-.n-shadow {
-  display: block;
-  position:absolute;
-  top: 7.0%;
-  left: 5.0%;
-  color: #FFF;
-  filter: blur(4px);
+  margin: 2% 0% 0% 5%;
 }
 
 .n-one {
@@ -176,8 +141,7 @@ name {
   position:absolute;
   top: 5%;
   left: 5%;
-  color: #016;
-  text-shadow: -1px -1px 1px rgba(136,119,102,1);
+  color: #000;
 }
 
 contact {
@@ -208,17 +172,16 @@ contact {
 
 .proj-elem {
   display: inline-flex;
-  align-content: center;
+  align-items: center;
   flex-direction: column;
-  margin: 5%;
 }
 .proj-elem a {
   font-size: 2em;
-  margin: 5%;
 }
 .proj-elem img {
   width: 300px;
   height: 300px;
+  margin-top: 5%;
 }
 
 .e-unshadow {
