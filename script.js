@@ -3,14 +3,17 @@ $(document).ready(function(){
   let Projs = $('#projects');
 
   projects.forEach(function(item){
-    let DIV = $('<div class="proj-elem">')
+    let DIV = $('<div class="proj-elem">');
+    let heading = item["heading"];
     let title = item["title"];
     let IMGhref = item["thumbnail"];
-    let IMG = $('<img src="./public/images/'+IMGhref+'">')
     let LNK = item["link"];
+    let IMG = $('<a href="'+LNK+'"><img src="./public/images/'+IMGhref+'"></a>');
     let aREF = $('<a href="'+LNK+'">'+title+'</a>');
-    aREF.append(IMG);
+    let headTXT = $('<h3>'+heading+'</h3>');
     DIV.append(aREF);
+    DIV.append(headTXT);
+    DIV.append(IMG);
     Projs.append(DIV);
   })
 

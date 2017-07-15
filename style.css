@@ -109,7 +109,7 @@ header {
   outline: 4px solid rgba(251,251,251,0.6);
 }
 
-header a {
+contact, header a {
   text-shadow: 1px 1px 1px rgba(136,119,102,1);;
 }
 
