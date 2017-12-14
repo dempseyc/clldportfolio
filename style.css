@@ -238,7 +238,7 @@ name {
 #non-dev {
 }
 
-@media (max-width: 700px){
+@media screen and (max-device-width: 700px){
 
   body{
     font-size: 130%;
