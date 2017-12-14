@@ -18,6 +18,6 @@ var projects = [
     "heading": "rpg adventure engine",
     "thumbnail": "baad_planet_thumb.gif",
     "link": "https://dempseyc.github.io/",
-    "githublink": ""
+    "githublink": "https://dempseyc.github.io/"
   }
 ]

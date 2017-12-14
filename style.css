@@ -139,7 +139,7 @@ name {
   display: flex-box;
   flex-direction: column;
   justify-content: flex-end;
-  position: absolute;
+  position: relative;
   left: 5%;
 }
 
