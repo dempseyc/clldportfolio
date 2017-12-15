@@ -2,7 +2,7 @@ $(document).ready(function(){
 
   let Projs = $('#projects');
 
-  projects.forEach(function(item){
+  projects.forEach(item => {
     let DIV = $('<div class="proj-elem">');
     let heading = item["heading"];
     let title = item["title"];
