@@ -231,6 +231,8 @@ nav ul {
 
   .about p {
     width: 100%;
+    font-size: 2em;
+    line-height: 2em;
   }
 
   contact {
@@ -256,6 +258,10 @@ nav ul {
     width: 80vw;
     height: 80vw;
     margin-top: 5%;
+  }
+
+  .proj-elem a {
+    font-size: 3em;
   }
 
   h2 {
