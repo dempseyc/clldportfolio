@@ -89,16 +89,15 @@ h3 {
   text-align: left;
 }
 
+h4 {
+  font-size: .8rem;
+  line-height: 2.4rem;
+}
+
 name h3 {
   font-size: .3em;
   line-height: 2em;
   text-align: center;
-}
-
-
-h4 {
-  font-size: .8em;
-  line-height: 2.4em;
 }
 
 .transparent {

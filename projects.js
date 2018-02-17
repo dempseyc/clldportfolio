@@ -1,5 +1,12 @@
 var projects = [
   {
+    "title": "Gen-Art",
+    "heading": "art generation tool",
+    "thumbnail": "genny1.gif",
+    "link": "#",
+    "githublink": "https://github.com/dempseyc/react-gen-art"
+  },
+  {
     "title": "Thinking Cat",
     "heading": "personality test",
     "thumbnail": "thinking_cat_thumb.gif",
