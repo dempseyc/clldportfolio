@@ -4,27 +4,31 @@ var projects = [
     "heading": "art generation tool",
     "thumbnail": "genny1.gif",
     "link": "http://www.thelifestyle.info/craigdempsey/react_gen_art",
-    "githublink": "https://github.com/dempseyc/react-gen-art"
+    "githublink": "https://github.com/dempseyc/react-gen-art",
+    "stack": "React"
   },
   {
     "title": "Thinking Cat",
     "heading": "personality test",
     "thumbnail": "thinking_cat_thumb.gif",
     "link": "https://thinking-cat.herokuapp.com/",
-    "githublink": "https://github.com/dempseyc/thinking-cat"
+    "githublink": "https://github.com/dempseyc/thinking-cat",
+    "stack": "D3, JQuery, Express, PostgresQL"
   },
   {
     "title": "Our Moon Gardens",
     "heading": "visual playpen",
     "thumbnail": "our-moon-gardens-thumb2.gif",
     "link": "https://our-moon-gardens.herokuapp.com/",
-    "githublink": "https://github.com/dempseyc/our_moon_gardens"
+    "githublink": "https://github.com/dempseyc/our_moon_gardens",
+    "stack": "JQuery, GiphyAPI, Express, PostgresQL"
   },
   {
     "title": "Baad Plaanet!!",
     "heading": "rpg adventure engine",
     "thumbnail": "baad_planet_thumb.gif",
     "link": "https://dempseyc.github.io/",
-    "githublink": "https://dempseyc.github.io/"
+    "githublink": "https://dempseyc.github.io/",
+    "stack": "JQuery, CSS animation, no JS animation"
   }
 ]
