@@ -1,8 +1,16 @@
 var projects = [
+    {
+    "title": "Cocktail Guide",
+    "heading": "quick cheatsheet for cocktails",
+    "thumbnail": "cocktailthumb.gif",
+    "link": "https://cocktail-quick-guide.herokuapp.com/",
+    "githublink": "",
+    "stack": "React / Redux, Rails API, thecocktaildb.com"
+  },
   {
-    "title": "Gen-Art",
+    "title": "SMATTER_art",
     "heading": "art generation tool",
-    "thumbnail": "genny1.gif",
+    "thumbnail": "genny1.jpg",
     "link": "http://www.thelifestyle.info/craigdempsey/react_gen_art",
     "githublink": "https://github.com/dempseyc/react-gen-art",
     "stack": "React"

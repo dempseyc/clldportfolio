@@ -296,7 +296,7 @@ name h3 {
     }  
 
     a {
-        color: #FFF;
+        color: #BA8;
     }
 
 
@@ -311,7 +311,7 @@ name h3 {
         height: 5rem;
         width: 100vw;
         margin-bottom: 5%;
-        background-color: #222222;
+        background-color: #444444;
         border: none;
         outline: none;
         font-size: 2rem;
@@ -377,6 +377,9 @@ name h3 {
         text-justify: center;
     }
     contact {
-        background-color: #555D;
+        background-color: #EED;;
+    }
+    contact a {
+        color: #BA8;
     }
 }
