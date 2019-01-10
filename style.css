@@ -57,7 +57,7 @@ html {
 }    
 
 body {
-    background-color: #EED;
+    background-color: #ededed;
     font-family: 'Barlow Semi Condensed', sans-serif;
     color: #888;
 }
@@ -115,7 +115,7 @@ nav ul {
 
 h1 {
     font-size: 2.5rem;
-    color: #ABC;
+    color: #EEE;
 }    
 
 h2 {
@@ -172,6 +172,7 @@ name h3 {
 }
 
 .proj-elem {
+    max-width: 35vw;
     padding-left: 2rem;
     padding-bottom: 1rem;
 }
@@ -353,6 +354,10 @@ name h3 {
         padding-left: 0;
     }
 
+    .proj-elem {
+        max-width: 70vw;
+    }
+
     .proj-elem img {
         display: block;
         flex: 1;
@@ -377,7 +382,7 @@ name h3 {
         text-justify: center;
     }
     contact {
-        background-color: #EED;;
+        background-color: #ededed;
     }
     contact a {
         color: #BA8;
