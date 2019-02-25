@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <head>
   <meta charset="utf-8">
-  <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet">  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link href="style.css" rel="stylesheet" type="text/css">
   <title>Craig Dempsey</title>
 </head>
@@ -47,8 +49,80 @@
 
       <div id="resume" class="content-item">
         <h2>Resume</h2>
+        <ul class="resume-links">
+          <li><a href="./public/other/cld_resume_20190101.pdf" download> <i class="fa fa-file-pdf"></i> PDF </a></li>
+          <li><a href="./public/other/resume.txt" download> <i class="fa fa-file-alt"></i> TXT </a></li>
+        </ul>
           <div class="resume-elem">
-            <img src = "./public/images/cld_resume20180129.png" height="1056px" width="816px"/>
+            <img src = "./public/images/cld_resume20190101.png" height="1056px" width="816px" alt="Craig Dempsey
+            New York Metro Area
+            Creative Full-Stack Developer
+            
+            Email:  craigdempsey@gmail.com
+            GitHub:  github.com/dempseyc
+            Portfolio:  www.CraigDempsey.com
+            
+            Skills:
+                Front End – React, Redux, CSS grid and flex, SCSS, Responsive styling
+                Back End – ExpressJS, Rails, SQL databases, nginx, ubuntu, heroku, 
+                Tooling –  Webpack, NPM, Github, Docker, Rspec, Chai/Mocha Testing,
+                Languages –  JavaScript, Ruby, Python, PHP
+            
+            Developer Experience:
+            
+            Kevin Berrey, entertainer    2017-present
+            • Building responsive site: www.SleepWithKevin.com. with API accessing GCal data.
+            • ExpressJS API consumes .ics calendar file from public Google Calendar, filters data, and serves JSON to client script.  Considers time-zones and locations, delivering client agnostic calendar data.
+            
+            Pauline Marie Designs,, E-Commerce entrepreneur    2018-present
+            • Built WordPress Theme for: www.PaulineMarieDesigns.com.
+            • Created Custom PHP script to hit Etsy RSS API, render feed, and create etsy URL search queries.
+            • Photo-Editing, Design, Advice and Research provided as needed.
+            
+            La Palestra, a fitness, PT, and facilities company    2017-present.
+            • Maintaining and updating www.LaPalestra.com Joomla website as a hub. Creating Wix pages for hub extension sites linked from hub site.
+            • Photo-Editing, Design, Advice and Research provided as needed.
+            
+            Previous Experience: 
+            
+            Kava Cafe NYC  Cafe Manager.  2011-2016
+            • Trained and Coached team and other managers to perform lux cafe service for a global clientele.
+            • Configured menu, pricing, team roles, work-flow, to improve service and define brand.
+            • Developed sales analysis and reporting, advised on development of second location.
+            • Project to analyze weather and holiday data for predictive sales analysis yearly.
+            
+            Statuette / Hearts Of Darknesses  Tour Manager, Musician, Stage Producer.  2008-2010
+            • Composed music, created digital sound designs, stage production and performances.
+            • Organized scheduling, travel arrangements, and budgeting with a small team.
+            
+            D. E. Shaw & Co., LP  Associate, Trade Confirmation Group.  2002-2008
+            • Trained India office managers for overnight documentation coverage, technical writing for internal wiki.
+            • On-boarded trade confirm process to DTCC, web-based trade confirmation platform.
+            
+            Texas Department of Housing  Secretary for Department Manager, Low Income Housing  2001-2002
+            • Documented official correspondence, generated statistical reports, Law research.
+            
+            Personal Web Development Projects:
+            
+                TicTacToeBoomPow. A Python back-end experiment and game-design.  Python API with websockets serves chat room and an original game.
+            • Stack: Python, websockets.py. thelifestyle.info/craigdempsey/ttt-hit-pow
+            
+                SMATTER_art. An interactive art generator.
+            • Stack: SCSS, React
+            thelifestyle.info/craigdempsey/react_gen_art
+            
+                Our Moon Gardens. A sticker-page CRUD app for creative exploration.
+            • Stack: ExpressJS, PostgreSQL, Giphy API
+            https://our-moon-gardens.herokuapp.com/
+            
+                Thinking Cat. A minimal choose-your-own-adventure game and personality-test.
+            • Stack: JQuery, D3, ExpressJS, SQL database. thelifestyle.info/craigdempsey/thinking_cat_fe
+            
+                Cocktail Guide. Client Interface for cocktailDB.com searchable reference.
+            • Stack: React, Redux, Rails
+            https://cocktail-quick-guide.herokuapp.com/
+            
+            Education:    General Assembly Web Development Immersive NYC 2017.    FreeCodeCamp.com Front End Development NYC 2017.    School of the Art Institute of Chicago, BFA Program CHI 1997.    SAT score 1520/1600."/>
           </div>
       </div> <!-- resume -->
 
@@ -77,11 +151,11 @@
       <contact>
         <ul>
           <!-- defer mailto to a copy email address prompt -->
-          <li><a href="mailto:craigdempsey@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> craigdempsey@gmail.com</a></li>
-          <li><a href="https://github.com/dempseyc?tab=repositories"><i class="fa fa-github" aria-hidden="true"></i>  /dempseyc</a></li>
+          <li><a href="mailto:craigdempsey@gmail.com"><i class="fa fa-envelope" aria-hidden="false"></i> craigdempsey@gmail.com</a></li>
+          <li><a href="https://github.com/dempseyc?tab=repositories"><i class="fab fa-github" aria-hidden="false"></i>  /dempseyc</a></li>
           <!-- does this now include the 'intagram string' ? -->
           <!-- yes but fails style test -->
-          <li><a href="https://www.instagram.com/dempseycraig/"><i class="fa fa-instagram" aria-hidden="true"></i>  /dempseycraig</a></li>
+          <li><a href="https://www.instagram.com/dempseycraig/"><i class="fab fa-instagram" aria-hidden="false"></i>  /dempseycraig</a></li>
         </ul>
       </contact>
 

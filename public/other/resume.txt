@@ -1,0 +1,69 @@
+Craig Dempsey
+New York Metro Area
+Creative Full-Stack Developer
+
+Email:  craigdempsey@gmail.com
+GitHub:  github.com/dempseyc
+Portfolio:  www.CraigDempsey.com
+
+Skills:
+    Front End – React, Redux, CSS grid and flex, SCSS, Responsive styling
+    Back End – ExpressJS, Rails, SQL databases, nginx, ubuntu, heroku, 
+    Tooling –  Webpack, NPM, Github, Docker, Rspec, Chai/Mocha Testing,
+    Languages –  JavaScript, Ruby, Python, PHP
+
+Developer Experience:
+
+Kevin Berrey, entertainer    2017-present
+• Building responsive site: www.SleepWithKevin.com. with API accessing GCal data.
+• ExpressJS API consumes .ics calendar file from public Google Calendar, filters data, and serves JSON to client script.  Considers time-zones and locations, delivering client agnostic calendar data.
+
+Pauline Marie Designs,, E-Commerce entrepreneur    2018-present
+• Built WordPress Theme for: www.PaulineMarieDesigns.com.
+• Created Custom PHP script to hit Etsy RSS API, render feed, and create etsy URL search queries.
+• Photo-Editing, Design, Advice and Research provided as needed.
+
+La Palestra, a fitness, PT, and facilities company    2017-present.
+• Maintaining and updating www.LaPalestra.com Joomla website as a hub. Creating Wix pages for hub extension sites linked from hub site.
+• Photo-Editing, Design, Advice and Research provided as needed.
+
+Previous Experience: 
+
+Kava Cafe NYC  Cafe Manager.  2011-2016
+• Trained and Coached team and other managers to perform lux cafe service for a global clientele.
+• Configured menu, pricing, team roles, work-flow, to improve service and define brand.
+• Developed sales analysis and reporting, advised on development of second location.
+• Project to analyze weather and holiday data for predictive sales analysis yearly.
+
+Statuette / Hearts Of Darknesses  Tour Manager, Musician, Stage Producer.  2008-2010
+• Composed music, created digital sound designs, stage production and performances.
+• Organized scheduling, travel arrangements, and budgeting with a small team.
+
+D. E. Shaw & Co., LP  Associate, Trade Confirmation Group.  2002-2008
+• Trained India office managers for overnight documentation coverage, technical writing for internal wiki.
+• On-boarded trade confirm process to DTCC, web-based trade confirmation platform.
+
+Texas Department of Housing  Secretary for Department Manager, Low Income Housing  2001-2002
+• Documented official correspondence, generated statistical reports, Law research.
+
+Personal Web Development Projects:
+
+    TicTacToeBoomPow. A Python back-end experiment and game-design.  Python API with websockets serves chat room and an original game.
+• Stack: Python, websockets.py. thelifestyle.info/craigdempsey/ttt-hit-pow
+
+    SMATTER_art. An interactive art generator.
+• Stack: SCSS, React
+thelifestyle.info/craigdempsey/react_gen_art
+
+    Our Moon Gardens. A sticker-page CRUD app for creative exploration.
+• Stack: ExpressJS, PostgreSQL, Giphy API
+https://our-moon-gardens.herokuapp.com/
+
+    Thinking Cat. A minimal choose-your-own-adventure game and personality-test.
+• Stack: JQuery, D3, ExpressJS, SQL database. thelifestyle.info/craigdempsey/thinking_cat_fe
+
+    Cocktail Guide. Client Interface for cocktailDB.com searchable reference.
+• Stack: React, Redux, Rails
+https://cocktail-quick-guide.herokuapp.com/
+
+Education:    General Assembly Web Development Immersive NYC 2017.    FreeCodeCamp.com Front End Development NYC 2017.    School of the Art Institute of Chicago, BFA Program CHI 1997.    SAT score 1520/1600.

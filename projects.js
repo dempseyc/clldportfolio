@@ -3,7 +3,7 @@ var projects = [
     "title": "SleepWithKevin / GCal API",
     "heading": "Showtimes",
     "thumbnail": "sleepwithkevin.gif",
-    "link": "http://www.kevinberrey.com/sleepwithkevin.com",
+    "link": "http://www.berreycomic.com/sleepwithkevin.com/",
     "githublink": "https://github.com/dempseyc/google-calendar-api",
     "stack": "Custom ExpressJS API consuming .ics file from Google Calendar."
   },
@@ -19,7 +19,7 @@ var projects = [
     "title": "SMATTER_art",
     "heading": "art generation tool",
     "thumbnail": "genny1.jpg",
-    "link": "http://www.thelifestyle.info/craigdempsey/react_gen_art",
+    "link": "http://www.craigdempsey.com/react_gen_art",
     "githublink": "https://github.com/dempseyc/react-gen-art",
     "stack": "React"
   },

@@ -10,10 +10,10 @@ $(document).ready(function(){
     let LINK = item["link"];
     let GHLINK = item["githublink"];
     let STACK = item["stack"];
-    let IMG = $(`<a href="${LINK}"><img src="./public/images/${IMGhref}"></a>`);
-    let aREF = $(`<a href="${LINK}">${title}</a>`);
+    let IMG = $(`<a href="${LINK}"  target="_blank" ><img src="./public/images/${IMGhref}"></a>`);
+    let aREF = $(`<a href="${LINK}" target="_blank" >${title}</a>`);
     let headTXT = $(`<h3>${heading}</h3>`);
-    let head4TXT = $(`<span>${STACK}</span><a href="${GHLINK}"><h4>${GHLINK}</h4></a>`);
+    let head4TXT = $(`<span>${STACK}</span><a href="${GHLINK}" target="_blank" ><h4>${GHLINK}</h4></a>`);
     DIV.append(aREF);
     DIV.append(headTXT);
     DIV.append(IMG);
