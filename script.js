@@ -1,6 +1,43 @@
 $(document).ready(function(){
 
-  let Projs = $('#projects');
+  $.scrollify({
+    section : ".content-item",
+    sectionName : "section-name",
+    // interstitialSection : "",
+    easing: "easeOutExpo",
+    scrollSpeed: 1100,
+    offset : 0,
+    // scrollbars: true,
+    // standardScrollElements: "",
+    setHeights: true,
+    overflowScroll: true,
+    updateHash: true,
+    touchScroll:true
+    // before:function(indexPosition,snapToElm){
+    //     if(indexPosition===0){
+    //         snapToElm[0].css({"padding-top":"75rem"});
+    //     }
+    //     if(indexPosition>0){
+    //         snapToElm[0].css({"padding-top":"75rem"});
+    //     }
+    // },
+
+
+    // afterRender:function(){
+
+    //  //set the first element initially to the desired offset
+    //   $($(this.section)[0]).css({"margin-top":"75rem"});
+    //  //  stuff to do once scrollify has rendered the list
+    // },
+    // after:function() {},
+    // afterResize:function() {},
+    // afterRender:function() {}
+  });
+
+  let Projs = $('*[data-section-name="projects"]');
+
+  // Projs will be the .content-item where these elems live
+  // 
 
   projects.forEach(item => {
     let DIV = $('<div class="proj-elem">');

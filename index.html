@@ -2,7 +2,6 @@
 <head>
   <meta charset="utf-8">
   <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet">
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link href="style.css" rel="stylesheet" type="text/css">
   <title>Craig Dempsey</title>
@@ -31,14 +30,14 @@
 
     <div class="content">
 
-      <div id="projects" class="content-item">
+      <div class="content-item" data-section-name="projects">
         <h2>Projects</h2>
 
         <!-- jquery built elements live here -->
 
       </div> <!-- home -->
 
-      <div id="about-me" class="content-item about">
+      <div class="content-item about" data-section-name="about">
         <h2>About Me</h2>
         <p>With my appetite for challenging problems, my gift for finding innovative solutions, 
           and my passion for effective communication, learning and teaching, I will contribute to 
@@ -47,7 +46,7 @@
         <!-- <img src="#" /> -->
       </div>
 
-      <div id="resume" class="content-item">
+      <div class="content-item" data-section-name="resume">
         <h2>Resume</h2>
         <ul class="resume-links">
           <li><a href="./public/other/cld_resume_20190101.pdf" download> <i class="fa fa-file-pdf"></i> PDF </a></li>
@@ -126,7 +125,7 @@
           </div>
       </div> <!-- resume -->
 
-      <div id="non-dev" class="content-item">
+      <div class="content-item" data-section-name="non-dev">
         <h2>Other Links</h2>
         <div class="proj-elem">
           <a href="https://open.spotify.com/artist/7tX9RcCbGuLFROHPL2ri9r">Stars As Eyes</a>
@@ -165,6 +164,7 @@
   </div> <!-- container -->
 
   <script src="./jquery.js"></script>
+  <script src="./jquery.scrollify.js"></script>
   <script src="./projects.js"></script>
   <script src="./script.js"></script>
 </body>
