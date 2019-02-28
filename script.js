@@ -1,5 +1,9 @@
 $(document).ready(function(){
 
+//   lukehaas commented on Sep 15, 2015
+// Hi,
+// your best option will be to have inner containers within your sections that have the set heights that you want.
+
   $.scrollify({
     section : ".content-item",
     sectionName : "section-name",
@@ -10,8 +14,8 @@ $(document).ready(function(){
     // scrollbars: true,
     // standardScrollElements: "",
     setHeights: true,
-    overflowScroll: true,
-    updateHash: true,
+    // overflowScroll: true,
+    // updateHash: true,
     touchScroll:true
     // before:function(indexPosition,snapToElm){
     //     if(indexPosition===0){

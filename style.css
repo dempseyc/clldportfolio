@@ -154,7 +154,8 @@ name h3 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    padding-top: 7.5rem;
+    /* align-items: baseline; // doesn't solve problem */
+    padding-top: 30vh;
     padding-left: 1rem;
     min-height: 70vh;
 }
